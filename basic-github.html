@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main-style.css">
+    <title>Contents</title>
+</head>
+<body class="SecondBody">
+    <header>
+        <img height="50" width="50" src="images/logo.png" alt="logo">
+        <p>Имя студента: Шепотько Игорь</p>
+        <p>Номер группы: 1103o</p>
+        <p>Преподователь: Цветкова Людмила</p>
+    </header>
+    <a href="index.html"><button>На главную</button></a>
+    <h1 class="option">Github</h1>
+    <h3 class="definition">Github:</h3>
+    <p>GitHub - это платформа <span class="bold">хостинга</span>, <span class="bold">хранения</span> и <span class="bold">совместной разработке</span>. Здесь <span class="bold">любые</span> или <span class="bold">выбранные</span> разработчики могут работать над своими проектами, передавать другим или работать совместно.</p>
+    <h3 class="definition">SSH-ключ:</h3>
+    <p>это способ безопасного подключения на <span class="bold">удаленном</span> сервере GitHub без постоянного ввода пароля.</p>
+    <h3 class="definition">Репозиторий:</h3>
+    <p>Репозиторий - это место <span class="bold">хранения</span> кода проекта с историей изменений.</p>
+    <h3 class="definition">Коммит:</h3>
+    <p> Коммит - это сохранение <span class="bold">изменений</span> в коде проекта.</p>
+    <h3 class="definition">Ветка:</h3>
+    Ветка - это отдельная <span class="bold">линия</span> разработки, которая может быть создана для работы над другим кодом, не затрагивая <span class="bold">основной</span> код проекта.
+    <div class="terminal">
+        <pre>
+          <code>
+            <span class="command">git clone https://github.com/example/repository.git</span>
+            <span class="comment">// Клонирование репозитория.</span>
+          </code>
+        </pre>
+    </div>
+    <div class="terminal">
+        <pre>
+          <code>
+            <span class="command">git init</span>
+            <span class="comment">// создать локальный репозиторий.</span>
+          </code>
+        </pre>
+    </div>
+    <div class="terminal">
+        <pre>
+          <code>
+            <span class="command">git add [название файла]</span>
+            <span class="comment">// проиндексировать/выделить файл или папку.</span>
+          </code>
+        </pre>
+    </div>
+    <div class="terminal">
+        <pre>
+          <code>
+            <span class="command">git commit -m "любой текст"</span>
+            <span class="comment">// добавление обязательного комментария при пуше/загрузке/удалении файла/ветки.</span>
+          </code>
+        </pre>
+    </div>
+    <div class="terminal">
+        <pre>
+          <code>
+            <span class="command">git branch [название ветки]</span>
+            <span class="comment">// создание ветки.</span>
+          </code>
+        </pre>
+    </div>
+    <div class="terminal">
+        <pre>
+          <code>
+            <span class="command">git checkout [название ветки] </span>
+            <span class="comment">// войти в ветку.</span>
+          </code>
+        </pre>
+    </div>
+    <div class="terminal">
+        <pre>
+          <code>
+            <span class="command">git remote add origin [ssh-ключ] </span>
+            <span class="comment">// подключить репозиторий.</span>
+          </code>
+        </pre>
+    </div>
+    <div class="terminal">
+        <pre>
+          <code>
+            <span class="command">git remote set-url origin [ssh-ключ] </span>
+            <span class="comment">// изменить ссылку на репозиторий.
+            </span>
+          </code>
+        </pre>
+    </div>
+    <div class="terminal">
+        <pre>
+          <code>
+            <span class="command">git push -u origin [название ветки]  </span>
+            <span class="comment">// отправляет/запушивает файлы в GitHub/репозиторий на сайте.</span>
+          </code>
+        </pre>
+    </div>
+    <footer>
+        <p class="data">16.10.2023</p>
+        <a class="hexly" href="https://ru.hexlet.io"><p>Хекслет</p></a>
+    </footer>
