@@ -130,3 +130,7 @@ font-size: 0.7em;
   .terminal pre code {
     color: #999988;
   }
+
+  .bold {
+    font-weight: bold;
+  }
